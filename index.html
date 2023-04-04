@@ -1,0 +1,48 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <link rel="stylesheet" href="index.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Smythe&display=swap" rel="stylesheet">
+    </head>
+        <header>
+            <img class="burger-img" src="efburger2.jpg" alt="burger and beer">
+            <h1>Jimmy's Diner</h1>
+            <h2>The best burgers and pizza in town.</h2>
+        </header>
+        <div class="menu" id="menu">
+        </div>
+        
+        <div class="order invisible" id="order">
+            
+            <h3 class="item-name title">Your Order</h3>
+           
+            <div id="list">
+                 
+            
+            </div>
+            <span class="divider"></span>
+            <div class="total-line" id="total-line">
+                
+            </div>
+            <button class="btn" id="complete-order-btn">Complete Order</button>
+            
+        </div>
+        <div class="payment invisible" id="payment">
+            <p class="payment-txt">Enter Card Details</p>
+            <form id="payment-form">
+				<input type="text" name="fullName" placeholder="Enter your name" required>
+				<input type="number" name="cardNumber" placeholder="Enter your card number">
+                <input type="number" name="cvv" placeholder="Enter CVV">
+                <button type="submit" class="btn" id="payment-btn">Pay</button>
+			</form>            
+        </div>
+        
+    <body>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+
